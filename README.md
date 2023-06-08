@@ -5,4 +5,4 @@ Start sever:  node app.js
 
 
 # Warning!!!!!
-Dont use "npm i" it will crash!!!!
+Dont use "npm install" before to run it will crash!!!!

@@ -1,0 +1,16 @@
+.wrapper{
+    position: fixed;
+    top: 20%;
+    left: 39%;
+    background-color: #F6F2E9;
+    width: 400px;
+    height: 355px;
+    
+}
+.inner{
+    padding-top: 70px;
+}
+.inner-area img{
+    height: 100px;
+    width: 100px;
+}

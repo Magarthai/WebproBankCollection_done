@@ -1,0 +1,44 @@
+.auth-wrapper{
+    text-align: center;
+    width: 40%;
+  height: 70%;
+  position: fixed; /* or absolute */
+  top: 10%;
+  left: 32%;
+  background-color: #F6F2E9;
+}
+
+.auth-wrapper{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.forgot-password{
+  text-align: right;
+  padding-top: 10px;
+}
+.auth-inner{
+  text-align: left;
+}
+.auth-inner h3{
+  text-align: center;
+}
+.authbutton{
+  background-color: #3C2A21;
+  color: white;
+}
+.radios{
+  text-align: center;
+}
+
+@media screen and (max-width: 887px) {
+    .auth-wrapper{
+    text-align: center;
+    width: 70%;
+      height: 70%;
+      position: fixed; /* or absolute */
+      top: 10%;
+      left:15%;
+      background-color: #F6F2E9;
+    }
+}

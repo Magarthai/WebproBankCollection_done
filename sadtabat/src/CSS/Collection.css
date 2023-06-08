@@ -1,0 +1,277 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300&display=swap');
+body{
+  display: flex;
+  height: 100%;
+  padding: 0;
+  font-family: 'Mitr', sans-serif;
+  margin: 0;
+  background-color: #fcf8f1;
+  background: linear-gradient(to bottom, #fff1d9, #fcf8f1);
+  min-height: 100vh;
+}
+.functions{
+  position: relative;
+  display: flex;
+  left: 93%;
+  top: 51%;
+}
+header{
+  background-color: white;
+  flex: 0 0 auto;
+}
+html{
+  height: 100%;
+}
+.main-content{
+  flex: 1 0 auto;
+  height: auto;
+  padding-bottom: 30px;
+}
+.top{
+  font-size: 2.2rem;
+  color: #3C2A21;
+}
+.icon{
+  padding-right:10px;
+  height: 20px;
+  width: 20px;
+}
+.contract{
+  display: flex;
+  padding: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  height: 30px;
+  margin: 0;
+  justify-content: space-between;
+}
+footer{
+  flex: 0 0 auto;
+  background-color: white;
+}
+footer hr{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Mitr', sans-serif;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.year p{
+  margin: 0;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .contract{
+    display: flex;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30px;
+    margin: 0;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .contract{
+    display: flex;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30px;
+    margin: 0;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contract{
+    display: flex;
+    padding: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 30px;
+    margin: 0;
+    font-size: 12px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contract{
+    display: flex;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 30px;
+    margin: 0;
+    font-size: 12px;
+    justify-content: space-between;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.content{
+    position: relative;
+    left: 0.9%;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#r{
+    padding-top: 8%;
+}
+.cu{
+    position: relative;
+    top: -25px;
+    left: 5%;
+}
+
+.cu button{
+    position: relative;
+    border: solid #F6F2E9;
+    background-color: #3cff00;
+    color: #3C2A21;
+    margin: 5px;
+    left: 20%;
+    box-shadow: 0 0.7rem 1rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+.items 
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px 50px;
+	padding: 0px 50px;
+}
+.items .card 
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 350px;
+	height: 300px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+	transition: 0.5s
+}
+.imgBsx{
+    position: relative;
+    align-items: center;
+    left: 7%;
+}
+.items .card:hover 
+{
+	height: 350px;
+}
+.items .card .imgBsx
+{
+	position: absolute;
+	top: 20px;
+	width: 300px;
+	height: 220px;
+	background: #333;
+	border-radius: 12px;
+	overflow: hidden;
+	transition: 0.5s;
+}
+.items .card:hover .imgBsx
+{
+	top: -100px;
+	scale: 0.75;
+	box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.items .card:hover .functions
+{
+	display: none;
+}
+.items .card .imgBsx img 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.items .card .content 
+{
+	position: absolute;
+	top: 252px;
+	width: 100%;
+	padding: 0 30px;
+	height: 35px;
+	overflow: hidden;
+	text-align: center;
+	transition: 0.5s;
+}
+.items .card:hover .content 
+{
+	top: 130px;
+	height: 250px;
+}
+.items .card .content h2 
+{
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #3C2A21;
+}
+.items .card .content p 
+{
+	color: #333;
+}
+.items .card .content a 
+{
+	position: relative;
+	top: 15px;
+	display: inline-block;
+	padding: 12px 25px;
+	background: var(--clr);
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	border-radius: 8px;
+}

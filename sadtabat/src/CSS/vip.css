@@ -1,0 +1,172 @@
+.vipbox {
+  position: fixed;
+  top: 43%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 420px;
+  background-color: #F6F2E9;
+  position: fixed;
+  /* or absolute */
+  box-shadow: 0 1rem 2rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.vipinfo {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  background-color: #ffffff;
+  position: fixed;
+  /* or absolute */
+  font-size: 1.5rem;
+}
+
+.viptext {
+  position: fixed;
+  top: 70%;
+  left: 75%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 400px;
+  position: fixed;
+  /* or absolute */
+  font-size: 1.5rem;
+}
+
+.vipinfo p {
+  text-align: left;
+}
+
+.vipbox img {
+  margin: 0;
+  padding: 0;
+  width: 85px;
+  height: 85px;
+}
+.vipbox button{
+  position: fixed;
+  width: 500px;
+  height: 50px;
+  top: 110%;
+  right: -12.5%;
+  border-radius: 0;
+  border: #3C2A21;
+  background-color: #3C2A21;
+
+}
+.top{
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 887px) {
+
+  .vipbox {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 320px;
+    background-color: #F6F2E9;
+    position: fixed;
+    box-shadow: 0 1rem 2rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  }
+
+  .vipinfo {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 220px;
+    background-color: #ffffff;
+    position: fixed;
+    font-size: 1.5rem;
+  }
+
+  .viptext {
+    position: fixed;
+    top: 100%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    position: fixed;
+    font-size: 1rem;
+  }
+  .top{
+    font-size: 1.5rem;
+  }
+  .vipbox button{
+    position: fixed;
+    width: 300px;
+    height: 40px;
+    top: 105%;
+    right: -8%;
+    border-radius: 0;
+    border: #3C2A21;
+    background-color: #3C2A21;
+  
+  }
+
+}
+
+@media screen and (max-height: 800px) {
+
+  .vipbox {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 320px;
+    background-color: #F6F2E9;
+    position: fixed;
+    box-shadow: 0 1rem 2rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  }
+
+  .vipinfo {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 220px;
+    background-color: #ffffff;
+    position: fixed;
+    font-size: 1.5rem;
+  }
+
+  .viptext {
+    position: fixed;
+    top: 100%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    position: fixed;
+    font-size: 1rem;
+  }
+  .top{
+    font-size: 1.5rem;
+  }
+  .vipbox button{
+    position: fixed;
+    width: 300px;
+    height: 40px;
+    top: 105%;
+    right: -8%;
+    border-radius: 0;
+    border: #3C2A21;
+    background-color: #3C2A21;
+  
+  }
+
+}

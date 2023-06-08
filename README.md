@@ -4,5 +4,5 @@ Start sever:  node app.js
 
 
 
-# Waring!!!!!
+# Warning!!!!!
 Dont use "npm i" it will crash!!!!
